@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 function ExpenseList({ expenses }) {
   const navigate = useNavigate();
 
+  // toLocaleString 숫자 단위별로 , 기입 메소드
   return (
     <div className="bg-white rounded-xl shadow p-4 space-y-2">
       {expenses.length === 0 ? (
