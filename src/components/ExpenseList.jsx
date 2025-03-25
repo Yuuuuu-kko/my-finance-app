@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 // 지출 리스트
-// supabase에서 데이터 목록 가져오자!
 function ExpenseList({ expenses }) {
   const navigate = useNavigate();
 
