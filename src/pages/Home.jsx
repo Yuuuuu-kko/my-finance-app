@@ -37,7 +37,7 @@ const Home = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-4 space-y-6">
+    <div className="max-w-2xl mx-auto px-4 py-8 space-y-6">
       <MonthNavigation
         selectedMonth={selectedMonth}
         setSelectedMonth={setSelectedMonth}
