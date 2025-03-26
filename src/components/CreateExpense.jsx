@@ -27,7 +27,8 @@ const CreateExpense = ({ expenseAdd }) => {
       .select();
 
     if (!error && data) {
-      expenseAdd(data[0]);
+      // expenseAdd(data[0]);
+      await fetchExpenses();
       setForm({ date: "", item: "", amount: "", description: "" });
     }
   };
