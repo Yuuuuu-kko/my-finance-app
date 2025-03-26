@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import supabase from "../utils/supabase";
 
-const CreateExpense = ({ expenseAdd }) => {
+const CreateExpense = ({ fetchExpenses }) => {
   const [form, setForm] = useState({
     date: "",
     item: "",
