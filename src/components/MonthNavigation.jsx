@@ -6,7 +6,7 @@ const MonthNavigation = ({ selectedMonth, setSelectedMonth }) => {
   const months = Array.from({ length: 12 }, (_, i) => i + 1);
 
   return (
-    <div className="flex flex-wrap gap-2 justify-center">
+    <div className="grid grid-cols-6 gap-2 justify-center">
       {months.map((month) => (
         <button
           key={month}
